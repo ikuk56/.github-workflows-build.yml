@@ -336,7 +336,7 @@ jobs:
                   mid.addView(key("\u25C0", KeyEvent.KEYCODE_DPAD_LEFT));
                   mid.addView(key("OK", KeyEvent.KEYCODE_ENTER));
                   mid.addView(key("\u25B6", KeyEvent.KEYCODE_DPAD_RIGHT));
-                  pad.addView(mid);
+                  pad.addView(mid, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT));
                   pad.addView(key("\u25BC", KeyEvent.KEYCODE_DPAD_DOWN));
                   FrameLayout.LayoutParams padLp = new FrameLayout.LayoutParams(
                           FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT,
